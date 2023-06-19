@@ -21,3 +21,8 @@ input_data = torch.randn(1, 10)
 output = model(input_data)
 print("Output shape:", output.shape)
 print("Output values:", output)
+
+
+# Output shape: torch.Size([1, 5])
+# Output values: tensor([[-0.1105, -0.2730, -0.1097, -0.0842, -0.3498]],
+#       grad_fn=<AddmmBackward0>)
